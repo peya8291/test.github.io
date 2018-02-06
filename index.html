@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment1</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="phone.css">
+	</head>
+	<body>
+		<div class ="navbar" id="tab_bar">
+			<button class="className" id="Dialer">Dialer</button>
+			<button class="className" id="ContactList">Contact List</button>
+			<button class="className" id="ContactAdd">Add Contact</button>
+		</div>
+
+    <div class="contents" id="content">
+			<div class="keyboard" id="contentDialer">
+				 		<form class="pure-form pure-form-stacked">
+		 	  				<h1 for="name">Dialer</h1>
+		 	  				<input id="Dname" placeholder=" " class="pure-input-1-3" type="text">
+		 				</form>
+						<div class="keyboard" id="contentDialer">
+								<button class="numBtn" id="B1">1</button>
+								<button class="numBtn" id="B2">2</button>
+								<button class="numBtn" id="B3">3</button>
+						</div>
+						<div class="keyboard" id="contentDialer">
+								<button class="numBtn" id="B4">4</button>
+								<button class="numBtn" id="B5">5</button>
+								<button class="numBtn" id="B6">6</button>
+						</div>
+						<div class="keyboard" id="contentDialer">
+								<button class="numBtn" id="B7">7</button>
+								<button class="numBtn" id="B8">8</button>
+								<button class="numBtn" id="B9">9</button>
+						</div>
+						<div class="keyboard" id="contentDialer">
+								<button class="numBtn" id="B*">*</button>
+								<button class="numBtn" id="B0">0</button>
+								<button class="numBtn" id="B#">#</button>
+						</div>
+						<div class="keyboard_last" id="contentDialer">
+								<button class="dialBtn" id="BD">Dial</button>
+								<button class="clearBtn" id="BC">Clear</button>
+						</div>
+		</div>
+
+		<div class="className" id="contentList">
+			<form class="pure-form pure-form-stacked">
+					<h1 for="name">Content List</h1>
+			</form>
+			 <div>
+			    <button class="Zening pure-button">Zening</button>
+			    <button class="Manyi pure-button">Manyi</button>
+			    <button class="Yifan pure-button">Yifan</button>
+			</div>
+			<div>
+				 <button class="YangYang pure-button">YangYang</button>
+				 <button class="Yushuo pure-button">Yushuo</button>
+				 <button class="Zhixing pure-button">Zhixing</button>
+		  </div>
+
+
+		</div>
+
+		<div class="className" id="contentAdd">
+				<form class="pure-form pure-form-stacked">
+    			<fieldset>
+        		<h1 for="name">Add Content</h1>
+
+        		<label for="name">Name</label>
+        		<input id="name" class="pure-input-1-4" type="name" placeholder="Peng Yan">
+
+        		<label for="Phone number">Phone number</label>
+        		<input id="Phone number" type="Phone number" class="pure-input-1-4" placeholder="123-456-789">
+
+						<label for="Email address">Email address</label>
+        		<input id="Email address" type="Email addressr" class="pure-input-1-4" placeholder="yanguan@sina.com">
+
+            <div>
+							<button type="Add contact" class="Add contact pure-button">Add contact</button>
+        			<button type="Clear" class="Clear pure-button">Clear</button>
+						</div>
+    		</fieldset>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="phone.js"></script>
+  </body>
+</html>

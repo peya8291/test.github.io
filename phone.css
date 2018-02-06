@@ -1,0 +1,40 @@
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+button { width: 170px; height: 50px; background: silver; color: black; margin: 10px}
+
+/* make all tags with the "cool" class name have blue text */
+/*.cool { color: blue; }*/
+
+body {background-color: powderblue;}
+
+#contentAdd{
+    font-family: fantasy;
+    font-size: 150%;
+    border: 10px;
+    margin:10px;
+
+}
+
+#contentDialer{
+    font-family: fantasy;
+    font-size: 150%;
+    border: 10px;
+    margin:10px;
+
+}
+
+#contentList{
+    font-family: fantasy;
+    font-size: 150%;
+    border: 10px;
+    margin:10px;
+
+}
+
+#Dname{
+  border: 30px;
+  margin:20px;
+}
+#BD {width: 270px; height: 50px; }
+#BC {width: 270px; height: 50px; }
+/* make the button with ID "delete" red */
+/*#delete { background: red; }*/
